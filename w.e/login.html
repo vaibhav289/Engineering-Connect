@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+function validate()
+{
+valid=true;
+if(document.login.fname.value=="")
+{
+alert("Enter FirstName");
+valid=false;
+document.login.fname.focus();
+}
+if(document.login.password.value=="")
+{
+alert("Enter Password");
+valid=false;
+document.login.password.focus();
+}
+return valid;
+}
+</script>
+</head>
+<body>
+<form name="login" action="loginproc1.php" onSubmit="return validate()" method="post" align="center">
+<br><br><br><br><br><br><br><br><br><br>
+First Name: <input name="fname"  type="text">
+<br /><br /><br />
+Password: <input name="password" type="password">
+<br></br></br>
+<input type="submit" value="Submit"/>
+   <input type="button" value="Sign up" onClick="location='register.html'"/>
+</form>
+</body>
+</html>

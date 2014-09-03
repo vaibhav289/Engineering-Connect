@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Register</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--<script src="validate.js" type="text/javascript">-->
+<script type="text/javascript">
+function validate()
+{
+valid=true;
+if(document.Register.fname.value=="")
+{
+alert("Enter FirstName");
+valid=false;
+document.Register.fname.focus();
+}
+if(document.Register.lname.value=="")
+{
+alert("Enter LastName");
+valid=false;
+document.Register.lname.focus();
+}
+if(document.Register.phone.value=="")
+{
+alert("Enter Phone No");
+valid=false;
+document.Register.phone.focus();
+}
+
+
+
+var x=document.forms["myForm"]["email"].value;
+var atpos=x.indexOf("@");
+var dotpos=x.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  alert("Not a valid e-mail address");
+  return false;
+  }
+if(document.Register.password.value=="")
+{
+alert("Enter Password");
+valid=false;
+document.Register.password.focus();
+}
+if (pass.length<6)
+  {
+  alert("Password shorter than 6 characters");
+  }
+else
+  if (!(pass==conf))
+  {
+ alert("password doesn't match");
+  }
+
+return valid;
+}
+</script>
+</head>
+<body>
+<div id="main">
+<form  name="Register" action="register.php" onsubmit="return validate()" method="post">
+		 <fieldset>
+
+					
+					<table class="info">
+                    	<tr>
+                        	<td class="imp">*</td>
+                            <td> First Name:</td>
+                            <td> <input name="fname" type="text" /></td>
+                       </tr>
+                       
+                       <tr>
+                        	<td class="imp">*</td>
+                            <td> Last Name:</td>
+                            <td> <input name="lname" type="text" /></td>
+                       </tr>
+                       
+                       <tr>
+                        	<td class="imp">*</td>
+                            <td>Phone No:</td>
+                            <td> <input name="phone" type="text" /></td>
+                       </tr>
+						
+                      
+                      <tr>
+                    	<td class="imp">*</td>
+                        <td>Date of Birth:</td>
+                        <td colspan="3">
+                        	<select name="date"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select> 
+
+							<select name="month"><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select>
+<select name="year"><option>1970</option><option>1971</option><option>1972</option><option>1973</option><option>1974</option><option>1975</option><option>1976</option><option>1977</option><option>1978</option><option>1977</option><option>1980</option><option>1981</option><option>1982</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option></select>
+						</td>
+                    </tr>
+                      
+                      <tr>
+	                       <td class="imp">*</td>
+                           <td> Choose your password:</td>
+                           <td> <input name="password" type="password"/></td>
+                      </tr>
+ 					 
+					
+                     <tr>
+ 	                    <td class="imp">*</td>
+                        <td> Email Address: </td>
+                        <td><input name="email" type="text"/></td>
+                    </tr>
+                    
+            	</table>
+                
+                <p><input type="submit" value="Submit"/>&nbsp; &nbsp;<input  type="reset" /></p>
+                
+               
+	</fieldset>
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,756 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+margin:0;
+padding:0;
+border:0;
+font-family:Arial, Helvetica, sans-serif;
+}
+body
+{
+		background:#408080
+}
+#wrapper
+{
+	margin:0 auto;
+	width:960px;
+	background:white;
+}
+#header
+{   width:1280;
+	height:60px;
+	margin:0 0 0 0;
+}
+h1
+{
+	font-size:36px;
+}
+h2
+{
+	text-align:center;
+}
+#pageheader
+{
+	margin:40px 0 0 0;
+	height:30px;
+	
+}
+#centerhead
+{
+	margin:40px 0 0 0;
+}
+#upperblock
+{
+	margin:0 0 0 0;
+	width:960px;
+	height:50px;	
+}
+.searchbar
+{
+	float:right;
+	margin:30px 0 0 0;
+}
+#nav-bar
+{
+	width:100%;
+	
+}
+#nav-bar > ul > li
+{
+	padding:0 100 0 0;
+	display:inline-block;
+	*display:inline;
+	zoom:1.25;	
+	position:relative;
+	text-align:center;
+	
+}
+#nav-bar a
+{
+	display:block;
+	border:1px solid black;
+}
+#nav-bar li ul
+{
+	list-style-type:none;
+	position:absolute;
+	text-align:center;
+}
+#nav-bar li li a
+{
+	display:none;
+	border:1px solid black;
+	text-align:center;
+}
+#nav-bar li:hover a
+{
+	display:block;
+	border:1px solid black;
+	text-align:center;
+}
+form
+{
+	
+}
+input
+{	
+	border:1px solid black;
+}
+#line
+{
+	border:1px solid grey;
+	width:660px;
+}
+#line1
+{
+	border:1px solid grey;
+	width:219px;
+}
+
+#block
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:960px;
+}
+#block1
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:860px;
+}
+#block2
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:860px;
+}
+#block3
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:860px;
+}
+#block4
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:725px;
+}
+#block5
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:860px;
+}
+#block6
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:330px;
+}
+#block7
+{
+	margin:20px 0 0 0;
+	width:960px;
+	height:1770px;
+}
+#infoblock
+{	
+	margin:0 0 0 0;
+	width:960px;
+	height:400px;
+	border:1px solid black;
+}
+#infoblock > img
+{
+	float:left;
+}
+#festivalblock
+{
+	margin:10px 0 0 150px;
+	height:250px;
+}
+#festivalblock > a > img
+{
+	float:left;
+	display: inline;
+  	margin:30px;
+	
+}
+#website
+{
+	margin:20px 0 0 0;
+	text-align:center;
+}
+#right2
+{
+	float:right;
+	width:300px;
+	height:680px;
+}
+.extra
+{	
+	float:right;
+	margin:100px 0 0 0px;
+	width:220px;
+	border:1px solid grey;
+	height:200px;
+}
+
+.coreblock
+{
+	float:left;
+	width:658px;
+	height:950px;
+	border:1px solid grey;
+	position:absolute;
+}
+.coreblock1
+{
+	float:left;
+	width:658px;
+	height:830px;
+	border:1px solid grey;
+	position:absolute;
+}
+.coreblock2
+{
+	float:left;
+	width:658px;
+	height:830px;
+	border:1px solid grey;
+	position::absolute;
+}
+.coreblock3
+{
+	float:left;
+	width:658px;
+	height:830px;
+	border:1px solid grey;
+	position:absolute;
+}
+.coreblock4
+{
+
+	width:658px;
+	height:695px;
+	border:1px solid grey;
+}
+.coreblock5
+{
+	float:left;
+	width:658px;
+	height:830px;
+	border:1px solid grey;
+	position::absolute;
+}
+.coreblock6
+{
+
+	width:658px;
+	height:300px;
+	border:1px solid grey;
+}
+.coreblock7
+{
+	float:left;
+	width:658px;
+	height:1750px;
+	border:1px solid grey;
+	position:absolute;
+}
+.timetable
+{	
+	float:right;
+	margin:0px 0 0 0px;
+	width:220px;
+	border:1px solid grey;
+	height:200px;
+	
+}
+.clear /*Clear should be a class as it may have to be used multiple times on a page. Id's can be used just once, class n number of times*/
+{
+	clear:both;
+}
+.coreblock7 > ul
+{
+	
+	width:100%;
+	margin:40 0 0 0;
+	padding:0;
+	list-style-type:disc;
+}
+ul
+{
+	
+	width:100%;
+	margin:0 0 0 0;
+	padding:0;
+	list-style-type:disc;
+}
+li 
+{
+	margin:10px 0 0 50px;
+	font-size:14px;
+}
+.imgblock
+{
+	margin:0 0 0 0;
+	width:960px;
+	height:775px;
+	border:1px solid black;
+}
+.img
+{	
+  margin:5px 0 0 2px;
+  float: left;
+}
+.img img
+{
+  display: inline;
+  margin: 3px;
+}
+.image
+{
+	float:left;
+}
+.matter
+{
+	float:left;
+	margin:0 0 0 0 ;
+	width:775px;
+	height:300px;
+	
+	
+}
+.matter > p
+{
+	
+}
+
+
+.coreblock7 > p
+{
+	margin:20px 0 0 40px;
+}
+p
+{
+	margin:10px 0 0 10px;
+}
+.timetable p
+{
+	color:green;
+	text-align:center;
+}
+
+#recentnews
+{
+	width:100%;
+	height:360px;
+	z-index:-1;
+}
+.no-margin
+{
+	margin-right:0 !important;
+}
+.news-block
+{
+	border:6px solid grey;
+	width:270px !important;
+	height:150px;
+	margin:0 40px 0 0;
+	float:left;
+	margin-bottom:30px;
+	position:relative;
+	overflow:hidden;
+}
+.news-block p
+{
+	position:absolute;
+	padding:5px;
+	bottom:0;
+	left:0;
+	color:white;
+	background:url(../images/transparent-bg.png) repeat;
+	width:100%;
+	font-size:12px;
+}
+#contact
+{
+	/*max-width; Max width without pixel values is useless. Also max-width is not supported on older browsers*/
+	margin:50px 0 0 0;
+	width:100%;
+	height:50px;
+}
+#contact > ul
+{
+	width:100%;
+	height:25px;
+	margin:0 0 0 200px;
+	padding:0;
+	list-style-type:none;
+}
+#contact > ul > li 
+{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	text-align:center;
+	display:inline;
+	padding-right:50px;
+	border-right:1px solid black;
+}
+#contact > ul > li.last
+{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	text-align:center;
+	display:inline;
+	border-right:1px solid white;
+}
+
+#contact > ul > li:hover
+{
+	opacity:1.6;
+	filter:alpha(opacity=100);/* For IE8 and earlier */
+}
+#contact a
+{
+	text-decoration:none;
+	color:#000000;
+	font-size:11px;
+}
+.navigation
+{	
+	float:left;
+	margin:20px 0 0 0;
+	position:absolute;
+	height:50px;
+	z-index:999 !important;
+}
+.navigation > ul.pureCssMenu ul{display:none}
+
+.navigation > ul.pureCssMenu li:hover>ul{display:block}
+
+.navigation > ul.pureCssMenu ul{position: absolute;left:1px;top:29px;}
+
+.navigation > ul.pureCssMenu ul ul{position: absolute;left:98%;top:-2px;}
+
+.navigation > ul.pureCssMenu,ul.pureCssMenu ul {
+
+	margin:0px;
+
+	list-style:none;
+
+	padding:0px 2px 2px 0px;
+
+	background-color:#fff;
+
+	background-repeat:repeat;
+
+	border-color:#808080;
+
+	border-width:1px;
+
+	border-style:solid;
+
+}
+
+.navigation > ul.pureCssMenu table {border-collapse:collapse}ul.pureCssMenu {
+
+	display:block;
+
+	zoom:1;
+
+	height:21px;
+
+	float: left;
+
+}
+
+.navigation > ul.pureCssMenu ul{
+
+	
+	width:105.1px;
+
+}
+
+.navigation > ul.pureCssMenu li{
+
+	display:block;
+
+	margin:2px 0px 0px 2px;
+
+	font-size:0px;
+
+}
+
+.navigation > ul.pureCssMenu a:active, ul.pureCssMenu a:focus {
+
+outline-style:none;
+
+}
+
+.navigation > ul.pureCssMenu a, ul.pureCssMenu li.dis a:hover, ul.pureCssMenu li.sep a:hover {
+
+	display:block;
+
+	vertical-align:middle;
+
+	background-color:#FFFFFF;
+
+	border-width:1px;
+
+	border-color:#fff;
+
+	border-style:solid;
+
+	text-align:center;
+
+	text-decoration:none;
+
+	padding:2px 5px 5px 10px;
+
+	_padding-left:0;
+
+	font:normal 11px Tahoma;
+
+	color: #000;
+
+	text-decoration:none;
+
+	cursor:default;
+
+}
+
+.navigation > ul.pureCssMenu span{
+
+	overflow:hidden;
+
+}
+
+.navigation > ul.pureCssMenu li {
+
+	float:left;
+
+}
+
+.navigation > ul.pureCssMenu ul li {
+
+	float:none;
+
+}
+
+.navigation > ul.pureCssMenu ul a {
+
+	text-align:left;
+
+	white-space:nowrap;
+
+}
+
+.navigation > ul.pureCssMenu li.sep{
+
+	text-align:left;
+
+	padding:0px;
+
+	line-height:0;
+
+	height:100%;
+
+}
+
+.navigation > ul.pureCssMenu li.sep span{
+
+	float:none;	padding-right:0;
+
+	width:3px;
+
+	height:100%;
+
+	display:inline-block;
+
+	background-color:#808080;	background-image:none;}
+
+.navigation > ul.pureCssMenu ul li.sep span{
+
+	width:100%;
+
+	height:3px;
+
+}
+
+.navigation > ul.pureCssMenu li:hover{
+
+	position:relative;
+
+}
+
+.navigation > ul.pureCssMenu li:hover>a{
+
+	background-color:#DBF0F9;
+
+	border-color:#45ADE4;
+
+	border-style:solid;
+
+	font:normal 11px Tahoma;
+
+	color: #444;
+
+	text-decoration:none;
+
+}
+
+.navigation > ul.pureCssMenu li a:hover{
+
+	position:relative;
+
+	background-color:#DBF0F9;
+
+	border-color:#45ADE4;
+
+	border-style:solid;
+
+	font:normal 11px Tahoma;
+
+	color: #444;
+
+	text-decoration:none;
+
+}
+
+.navigation > ul.pureCssMenu li.dis a {
+
+	color: #557D4F !important;
+
+}
+
+.navigation > ul.pureCssMenu img {border: none;float:left;_float:none;margin-right:2px;width:16px;
+
+height:16px;
+
+}
+
+.navigation > ul.pureCssMenu ul img {width:16px;
+
+height:16px;
+
+}
+
+.navigation > ul.pureCssMenu img.over{display:none}
+
+.navigation > ul.pureCssMenu li.dis a:hover img.over{display:none !important}
+
+.navigation > ul.pureCssMenu li.dis a:hover img.def {display:inline !important}
+
+.navigation > ul.pureCssMenu li:hover > a img.def  {display:none}
+
+.navigation > ul.pureCssMenu li:hover > a img.over {display:inline}
+
+.navigation > ul.pureCssMenu a:hover img.over,ul.pureCssMenu a:hover ul img.def,ul.pureCssMenu a:hover a:hover img.over{display:inline}
+
+.navigation > ul.pureCssMenu a:hover img.def,ul.pureCssMenu a:hover ul img.over,ul.pureCssMenu a:hover a:hover img.def{display:none}
+
+.navigation > ul.pureCssMenu a:hover ul{display:block}
+
+.navigation > ul.pureCssMenu span{
+
+	display:block;
+
+	background-image:url(./images/arrv_white.gif);
+
+	background-position:right center;
+
+	background-repeat: no-repeat;
+
+   padding-right:9px;}
+
+.navigation > ul.pureCssMenu ul span{background-image:url(../images/arr_black.gif)}
+
+.navigation > ul.pureCssMenu ul li:hover > a span{	background-image:url(../images/arr_white.gif);}
+
+.navigation > ul.pureCssMenu table a:hover span{background-image:url(../images/arr_white.gif)}
+
+.navigation > ul.pureCssMenu li.pureCssMenui0 {
+
+width:110px;
+
+height:23px;
+
+}
+
+.navigation > ul.pureCssMenu li a.pureCssMenui0{
+
+height:100%;
+
+background-image:url(../images/btn3.jpg);
+
+border-width:0px;
+
+font:normal 11px Tahoma;
+
+color:#fff;
+
+}
+
+.navigation > ul.pureCssMenu li a.pureCssMenui0:hover{
+
+background-image:url(../images/btn4.jpg);
+
+font:normal 11px Tahoma;
+
+color:#eee;
+
+}
+
+ .navigation > ul.pureCssMenum0 {
+
+background-color:transparent;
+
+border-width:0px;
+
+	padding:0px 0px 0px 0px;
+
+}
+
+.navigation >  ul.pureCssMenum0>li>a {
+
+padding:8px 10px 0px 10px;
+
+}
+
+.navigation >  ul.pureCssMenum0 a {
+
+padding:8px 10px 0px 10px;
+
+
+}
+
+.navigation > ul.pureCssMenum0 ul a {
+
+padding:2px 5px 5px 10px;
+
+}
+
+.navigation >  ul.pureCssMenum0>li {
+
+margin:0px 0px 0px 0px;
+
+}
+
+.navigation > ul.pureCssMenum0 li {
+
+margin:0px 0px 0px 0px;
+
+}
+
+.navigation >  ul.pureCssMenum0 li li {
+
+margin:2px 0px 0px 2px;
+
+}
+
